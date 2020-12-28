@@ -1,0 +1,19 @@
+Did you attempt to make your computer player very smart -- i.e., do something more clever than just pick a random legal move?
+
+- Yes, I used a minimax algorithm.
+
+If so, were you able to accomplish this? Is your computer player as smart as you would like?
+
+- Yes, it is pretty smart.
+
+How did you determine which piece to play next? Tell us about your “pick next move” algorithm
+
+- My approach was to use recursion with a minimax algorithm. I used a max depth of four movements ahead, because going further was costly in terms of time. I created a utility function with 1 when computer wins, -1 when computer lost and 0 in case of tie.
+
+How often did your computer program beat you, or your friends, or whoever tested it out for you?
+
+- My program always wins.
+
+How would you improve it in the future?
+
+- I want to improve the design of my program (in terms of functions and code). I would like to improve the minimax algorithm to go deeper but without loosing efficiency.
